@@ -1,2 +1,1 @@
-"# frindly-winner" 
-m4
+"# readme - git" 
