@@ -47,7 +47,7 @@ rem ---------------------------------------------------------------------------
 doskey new=if not exist %BSISRC%bsicommon\shell\SharedShellEnv.bat (mkdir %BSISRC% ^& cd /d %BSISRC% ^& bentleybootstrap.py %TEAMNAME% ^& (call %BSISRC%bsicommon\shell\SharedShellEnv.bat)^& (title OBD shell)) else (echo Already bootstrapped!)
 doskey pull=(bb pull)
 doskey build=(bb -ax86 build)
-doskey buildx64=(bb build)
+doskey buildx64=(bb build) daniel
 doskey installer=(bb buildinstallset -c)
 doskey installerfull=(bb bundlebuild get ^& bb bundlebuild build)
 doskey clean=if exist %OutRoot% (rmdir /s /q %OutRoot%) else (echo Directory doesn't exist)
