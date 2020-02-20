@@ -27,7 +27,7 @@ rem Project environment variables.
 rem ---------------------------------------------------------------------------
 rem set BEGTEST_RUN_MINIMIZED=1
 set DEBUG=1
-rem set USE_NEW_BB=1
+rem set USE_NEW_BB=1 Ilisoi
 set BB_INSTALLER_SKIP_WIXBUNDLE_INSIGNIA=1
 rem set BE_SUITE_BUILD=1
 
